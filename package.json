@@ -1,12 +1,29 @@
 {
   "name": "hatcher",
   "version": "0.1.0",
+  "description": "Provides APIs by simple configuration.",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
     "start": "node server.js",
     "release": "standard-version"
   },
+  "keywords": [
+    "api",
+    "api-server",
+    "crawler",
+    "spider",
+    "cli",
+    "koa-middleware"
+  ],
+  "author": "viko16 <16viko@gmail.com>",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "homepage": "https://github.com/viko16/hatcher",
+  "repository": "viko16/hatcher",
+  "bugs": "https://github.com/viko16/hatcher/issues",
+  "license": "MIT",
   "devDependencies": {
     "standard": "^10",
     "standard-version": "^4.3.0"
